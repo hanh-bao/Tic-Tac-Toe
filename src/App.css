@@ -1,0 +1,58 @@
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.square.highlight {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.board-row {
+  display: flex;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.move {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.sort {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.game-board {
+  width: 18em;
+}
+
+.game-info {
+  margin-top: 5px;
+}
+
+.game-sort {
+  display: flex;
+  justify-content: center;
+}
